@@ -1,0 +1,227 @@
+body{
+   display: flex;
+    flex-direction: column; 
+     /* ページの背景画像を設定及びサイズの変更 */
+    background-image: url("DSC_0509.JPG") ;
+    background-size: 2000px auto;
+   
+}
+.grovalNavigation{
+    height: 65px;
+    text-align: center;
+    color: #fff;
+    margin-top:8px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.header-name {
+   float: left;
+   font-size: 32px;
+   color: #4B0082;
+   padding: 10px 70px 25px 55px;
+}
+
+.header-li {
+  float: left;
+}
+
+/* liを#vicに変更する */
+#vic {
+  font-size: 23px;
+  list-style: none;
+  float: left;
+  padding: 8px 15px 45px 75px;
+  margin-top: 10px;
+}
+
+ main{
+    min-height: 100vh;
+    display: flex; 
+    margin-top: 8px;
+}
+.content{
+    flex: 1;
+    background-color: #eee;
+    margin-left: 10px;
+      /* 背景の透過 2019/03/10 */
+    opacity: 0.95;
+    height: 860px;
+    -moz-opacity: 0.95;
+    filter: alpha(opacity=60);
+    margin-right:10px;
+    overflow: scroll;
+}
+
+.localNavigation{
+    width: 300px;
+   text-align: left; 
+   folat: left;
+    background-color: #eee;
+    color: #fff;
+    /* 背景の透過 2019/03/10 */
+     opacity: 0.95;
+    -moz-opacity: 0.95;
+    filter: alpha(opacity=60);
+    margin-left:10px;
+    
+
+} 
+
+/* サイドメニューのタイトル 2019/03/10 */
+.local {
+   background-color: blue;
+   padding: 10px;
+   text-align: center;
+   font-size: 30px;
+}
+
+/* サイドメニューのリストボックス 2019/03/10 */
+#box1 {
+  background-color: lightyellow;
+  width: 250px;
+  color: black;
+  margin-left: 22px;
+
+}
+
+/* サイドメニューのセレクト 2019/03/10 */
+.selected {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+}
+
+
+footer {
+   margin-top : 10px;
+   color: #4B0082;
+   float: right;
+   height: 50px;
+}
+
+.right {
+  padding-top: 15px;
+  padding-right: 10px;
+  float: right
+}
+
+.tab {
+  width: 800px;
+  height: 300px;
+}
+
+/*  以下、更新箇所 */
+
+.link_button { 
+  text-decoration: none;
+   color: #4B0082;
+  
+}
+.link_button:hover {
+  color: skyblue;
+  font-size: 1em;
+}
+
+
+/* 以下  2019/03/20 新規作成部分 */
+
+.test04_img{
+  width: 695px;
+  height: 350px;
+
+}
+
+.pageTitle {
+  margin-left: 350px;
+  font-size: 50px;
+  margin-top:20px;
+
+}
+
+.t_b {
+  background-color: lightyellow;
+  padding: 10px;
+
+}
+
+.b_content {
+  border: solid 2.5px #ff00ff;
+  width: 700px;
+  margin-left: 200px;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.p_b {
+  font-size: 18px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.link_b {
+   text-decoration: none;
+   color: #ff6347;
+}
+
+.link_b:hover {
+  color: blue;
+}
+
+/* 2019/03/25  追加 : サイドメニュー */
+
+.form_check {
+   height: 75px;
+   width: 150px;
+   margin-top: 5px;
+}
+
+.form_road {
+    background-color: lightyellow;
+    text-align: center;
+    height:110px;
+    margin-top:0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    border: 2px solid #f346;
+
+}
+
+.in_com {
+    background-color: lightblue;
+    text-align: center;
+    height:110px;
+    margin-top:0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    border: 2px solid #f346;
+
+}
+
+.seminar {
+   background-color: lightgray;
+    text-align: center;
+    height:110px;
+    margin-top:0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    border: 2px solid #f346;
+
+}
+
+.eng {
+   background-color: #f346;
+    text-align: center;
+    height:110px;
+    margin-top:0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    border: 2px solid #f346;
+
+}
+
+/* 2019/03/25 終 */
